@@ -40,6 +40,7 @@ Para uma utilização mais rápida e cómoda, recomenda-se criar um atalho no am
 1. Clica com o botão direito no ambiente de trabalho.
 2. Escolhe `Novo > Atalho`.
 3. No campo da localização, cola o comando do PowerShell com o caminho correcto para o ficheiro `.ps1`.
+   
    Por exemplo:
 
    ```powershell
