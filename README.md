@@ -26,7 +26,7 @@ Antes de usar o script, confirma que tens:
 
 1. Guarda o ficheiro do script numa pasta à tua escolha.
 
-   Exemplo:
+   Por exemplo:
 
    ```powershell
    C:\Program Files\Scripts\winget-manager_1.3.ps1
