@@ -58,6 +58,14 @@ Para uma utilização mais rápida e cómoda, recomenda-se criar um atalho no am
 
 Depois disso, basta abrir o atalho sempre que quiseres iniciar o script.
 
+## Exemplo de arranque manual
+
+Se preferires, também podes iniciar o script manualmente com este comando:
+
+```powershell
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Program Files\Scripts\winget-manager_1.4.4.ps1"
+```
+
 ## Utilização
 
 Depois de iniciares o script, segue as opções apresentadas no menu interactivo.
@@ -78,14 +86,6 @@ O script permite gerir actualizações e actualizações escondidas sem teres de
 - se mudares o nome do ficheiro, actualiza também o comando do atalho
 - o uso de `-ExecutionPolicy Bypass` serve para facilitar a execução directa do script
 - algumas operações, como a desinstalação, podem depender do suporte do próprio `winget` para o programa em causa
-
-## Exemplo de arranque manual
-
-Se preferires, também podes iniciar o script manualmente com este comando:
-
-```powershell
-C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Program Files\Scripts\winget-manager_1.4.4.ps1"
-```
 
 ## Licença
 
